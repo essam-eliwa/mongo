@@ -37,3 +37,10 @@ git remote add origin https://github.com/essam-eliwa/express-app.git
 git branch -M main
 git push -u origin main
 -->
+
+<!--
+# To verify that the remote server:
+git remote -v  
+# Remove remote
+git remote rm <remote-name>
+-->
