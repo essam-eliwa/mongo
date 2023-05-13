@@ -17,6 +17,13 @@ git clone https://github.com/essam-eliwa/express-app.git
 npm install
 ```
 
+```.env
+WEATHER_APPID="Your API KEY"
+ENV="development"
+PORT=3000
+HOST="127.0.0.1"
+```
+
 ### License
 
 [MIT]
@@ -36,6 +43,9 @@ push an existing repository from the command line
 git remote add origin https://github.com/essam-eliwa/express-app.git
 git branch -M main
 git push -u origin main
+
+# OR Use this command to force changes
+git push -f origin main
 -->
 
 <!--
